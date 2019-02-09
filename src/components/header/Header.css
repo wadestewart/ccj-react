@@ -1,0 +1,76 @@
+.header {
+    background: #000;
+    margin: 0.5rem 0 0 0;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    z-index: 10;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    font-family: "Helvetica Neue", sans-serif;
+    justify-content: space-between;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.header > nav > h2 {
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 0.3rem 2rem 0.7rem 2rem; 
+    padding: 0 5px;
+}
+
+h3 {
+    color: #fff;
+    margin: 0 2rem;
+}
+
+@media only screen
+    and (min-width: 320px)
+    and (max-width: 765px)
+    and (orientation: portrait) {
+
+        .header {
+            margin: 0.5rem 0 0 0;
+            width: 95.6%;
+        }
+
+        nav {
+            justify-content: center;
+            padding: 0;
+        }
+
+        .header > nav > h2 {
+            margin: 0;
+        }
+
+        h3 {
+            display: none;
+        }
+    }
+
+@media only screen 
+    and (min-width: 375px)
+    and (max-width: 823px)
+    and (orientation: landscape) {
+
+    .header {
+        width: 98%;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    .header > nav > h2 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 0.75em;
+    }
+}
