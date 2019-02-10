@@ -4,7 +4,7 @@ import darkImage from '../../imgs/ccj_landing_logo.jpg'
 
 function DarkSquareImage() {
     return (
-        <figure>
+        <figure className="center">
             <img src={darkImage} alt="CCJ Logo" />
         </figure>
     )
