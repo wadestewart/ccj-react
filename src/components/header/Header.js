@@ -12,21 +12,21 @@ class Header extends Component {
 
     render() {
         return (
-            <div class="navbar-fixed">
-                <ul id="dropdown1" class="dropdown-content">
-                    <li><a class="nav-scroll" href="#leadership">BOARD OF DIRECTORS</a></li>
-                    <li><a class="nav-scroll" href="#trustees">BOARD OF TRUSTEES</a></li>
+            <div className="navbar-fixed">
+                <ul id="dropdown1" className="dropdown-content">
+                    <li><a className="nav-scroll" href="#leadership">BOARD OF DIRECTORS</a></li>
+                    <li><a className="nav-scroll" href="#trustees">BOARD OF TRUSTEES</a></li>
                 </ul>
                 <nav>
-                    <div class="nav-wrapper">
-                            <a href="/" class="brand-logo">
+                    <div className="nav-wrapper">
+                            <a href="#" className="brand-logo">
                                 <img className="responsive-img" src={navLogo} alt="CCJ Logo" />
                             </a>
-                        <ul class="right hide-on-med-and-down">
+                        <ul className="right hide-on-med-and-down">
                             <li><a id="nav-text" href="#about">ABOUT</a></li>
-                            <li><a id="nav-text" class="dropdown-trigger" href="#!" data-target="dropdown1">LEADERSHIP<i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a id="nav-text" className="dropdown-trigger" href="#!" data-target="dropdown1">LEADERSHIP<i className="material-icons right">arrow_drop_down</i></a></li>
                             <li><a id="nav-text" href="#contact">CONTACT</a></li>
-                            <li><a id="nav-text" href="https://moz.com/beginners-guide-to-seo" target='_blank'>SUPPORT US</a></li>
+                            <li><a id="nav-text" href="https://moz.com/beginners-guide-to-seo" rel="noopener noreferrer" target='_blank'>SUPPORT US</a></li>
                         </ul>
                     </div>
                 </nav>
