@@ -1,9 +1,7 @@
-/* .brand-logo {
-    height: 2rem;
-    width: auto;
+.nav-wrapper {
+    background-color: #8ac6d0 !important;
 }
 
-.brand-logo > img {
-    height: 2rem;
-    width: auto;
-} */
+#nav-text {
+    color: #36213e;
+}
