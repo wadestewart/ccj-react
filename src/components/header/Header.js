@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import './Header.css'
-import navLogo from '../../imgs/ccj_logo_nav.png'
+import navLogo from '../../logos/ccj_logo_nav.png'
 import M from 'materialize-css'
 
 class Header extends Component {
@@ -14,8 +14,8 @@ class Header extends Component {
         return (
             <div className="navbar-fixed">
                 <ul id="dropdown1" className="dropdown-content">
-                    <li><a className="nav-scroll" href="#leadership">BOARD OF DIRECTORS</a></li>
-                    <li><a className="nav-scroll" href="#trustees">BOARD OF TRUSTEES</a></li>
+                    <li><a id="nav-text" href="#leadership">BOARD OF DIRECTORS</a></li>
+                    <li><a id="nav-text" href="#trustees">STAFF</a></li>
                 </ul>
                 <nav>
                     <div className="nav-wrapper">

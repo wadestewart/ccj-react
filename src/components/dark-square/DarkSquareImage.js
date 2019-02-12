@@ -1,6 +1,6 @@
 import React from 'react'
 
-import darkImage from '../../imgs/ccj_landing_logo.jpg'
+import darkImage from '../../logos/ccj_landing_logo.jpg'
 
 function DarkSquareImage() {
     return (
