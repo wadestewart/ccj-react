@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import Header from '../header/Header' 
-import DarkSquareImage from '../dark-square/DarkSquareImage'
+import DarkSquareImage from '../dark-square-logo/DarkSquareImage'
 
 class App extends Component {
   render() {

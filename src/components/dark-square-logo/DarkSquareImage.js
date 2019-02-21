@@ -5,7 +5,7 @@ import darkImage from '../../logos/ccj_landing_logo.jpg'
 function DarkSquareImage() {
     return (
         <figure className="center">
-            <img src={darkImage} alt="CCJ Logo" />
+            <img className="responsive-img" src={darkImage} alt="CCJ Logo" />
         </figure>
     )
 }
