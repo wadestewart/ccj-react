@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import data from '../../data'
 
-
 import Header from '../header/Header' 
 import DarkSquareImage from '../dark-square-logo/DarkSquareImage'
-import BoardGrid from '../board/BoardGrid'
+import GridContainer from '../board/board-grid/GridContainer'
 
 class App extends Component {
   constructor() {
@@ -14,13 +13,14 @@ class App extends Component {
       staff: data.staffData
     }
   }
+
   render() {
     return (
       <div>
         <Header/>
         <DarkSquareImage/>
-        <BoardGrid
-
+        <GridContainer
+          boardMembers={this.state.board}
         />
       </div>
     );

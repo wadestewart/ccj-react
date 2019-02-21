@@ -2,7 +2,7 @@ const data = {
     boardData: [
         {
             "id": 1,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Laurie Robinson",
             "board_position": "CCJ Board Chair",
             "job": "Professor, George Mason University",
@@ -10,7 +10,7 @@ const data = {
         },
         {
             "id": 2,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Jim Seward",
             "board_position": "",
             "job": "General Counsel, Black Hills Corporation",
@@ -18,7 +18,7 @@ const data = {
         },
         {
             "id": 3,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Michael Jacobson",
             "board_position": "CCJ Treasurer",
             "job": "Executive Director, CUNY Institute for State and Local Governance",
@@ -26,7 +26,7 @@ const data = {
         },
         {
             "id": 4,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Kathi Westcott",
             "board_position": "",
             "job": "Senior Counsel, The Pew Charitable Trusts",
@@ -34,7 +34,7 @@ const data = {
         },
         {
             "id": 5,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Roy Austin",
             "board_position": "",
             "job": "Partner, Harris, Wiltshire & Grannis LLP",
@@ -42,7 +42,7 @@ const data = {
         },
         {
             "id": 6,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Flozell Daniels",
             "board_position": "",
             "job": "President and CEO, Foundation for Louisiana",
@@ -50,7 +50,7 @@ const data = {
         },
         {
             "id": 7,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Marissa Dodson",
             "board_position": "",
             "job": "Public Policy Director, Southern Center for Human Rights",
@@ -66,7 +66,7 @@ const data = {
         },
         {
             "id": 9,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Gil Kerlikowske",
             "board_position": "",
             "job": "Professor, Northeastern University",
@@ -74,7 +74,7 @@ const data = {
         },
         {
             "id": 10,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Gerald Malloy",
             "board_position": "",
             "job": "South Carolina State Senator",
@@ -82,7 +82,7 @@ const data = {
         },
         {
             "id": 11,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Don Stern",
             "board_position": "",
             "job": "Of Counsel, Yurko, Salvesen & Remz",
@@ -90,7 +90,7 @@ const data = {
         },
         {
             "id": 12,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Nicole Surber",
             "board_position": "",
             "job": "Chief Development Officer, Freedom House",
@@ -98,7 +98,7 @@ const data = {
         },
         {
             "id": 13,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Brett Tolman",
             "board_position": "",
             "job": "Shareholder, Ray, Quinney & Nebeker",
@@ -106,7 +106,7 @@ const data = {
         },
         {
             "id": 14,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Jo-Ann Wallace",
             "board_position": "",
             "job": "President and CEO, National Legal Aid and Defender Association",
@@ -114,7 +114,7 @@ const data = {
         },
         {
             "id": 15,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Dan Wilhelm",
             "board_position": "",
             "job": "President, The Harry Frank Guggenheim Foundation",
@@ -124,14 +124,14 @@ const data = {
     staffData: [
         {
             "id": 1,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Adam Gelb",
             "title": "CCJ President and CEO",
             "bio": "Before launching the Council, Gelb spent 12 years leading the Pew Charitable Trusts’ Public Safety Performance Project, producing research that documented the high cost and low public safety return of traditional sentencing and corrections policies and helping 35 states adopt groundbreaking justice reforms. Gelb also staffed the U.S. Senate Judiciary Committee during negotiations over the 1994 crime bill and worked for governors in Georgia and Maryland."
         },
         {
             "id": 2,
-            "image": "./images-board/placeholder.jpg",
+            "image": "../images-board/placeholder.jpg",
             "name": "Abby Walsh",
             "title": "CCJ Director",
             "bio": "As a leader of state engagements for the Pew Charitable Trusts, Walsh spent more than five years partnering with policymakers to enact data-driven solutions that safely reduced prison populations, improved outcomes for youth in juvenile justice systems, and expanded treatment for substance use disorders. Earlier, she worked to modernize court practices and data collection in the federal judiciary."
@@ -153,3 +153,5 @@ const data = {
 //     "title": "",
 //     "bio": ""
 // }
+
+export default data
