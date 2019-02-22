@@ -19,9 +19,9 @@ class Header extends Component {
                 </ul>
                 <nav>
                     <div className="nav-wrapper">
-                            <a href="#!" className="brand-logo">
-                                <img className="responsive-img" src={navLogo} alt="CCJ Logo" />
-                            </a>
+                        <a href="#!" className="brand-logo">
+                            <img className="responsive-img" src={navLogo} alt="CCJ Logo" />
+                        </a>
                         <ul className="right hide-on-med-and-down">
                             <li><a id="nav-text" href="#about">ABOUT</a></li>
                             <li><a id="nav-text" className="dropdown-trigger" href="#!" data-target="dropdown1">LEADERSHIP<i className="material-icons right">arrow_drop_down</i></a></li>

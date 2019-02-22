@@ -10,10 +10,10 @@ img.circle {
     cursor: pointer;
 }
 
-img.circle:hover ~ .card-content > h6.text {
-    color: red;
+img.circle.responsive-img:hover + .card-content.center {
+    color: red !important;
 }
 
-.card-content > h6{
+.card-content.center {
     transition: color 0.5s ease;
 }
