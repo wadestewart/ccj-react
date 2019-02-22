@@ -1,0 +1,11 @@
+.staff-title {
+    margin: 2rem 4rem !important;
+}
+
+#staff-card {
+    margin: 1rem 0 ;
+}
+
+img.circle {
+    cursor: pointer;
+}

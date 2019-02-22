@@ -1,15 +1,15 @@
 import React from 'react'
 
-import BoardImage from './BoardImage'
+import StaffImage from './StaffImage'
 
-function BoardGrid(props) {
+function StaffGrid(props) {
     // console.log(props)
     return(
-        <div id="board-card" className="col s12 m3">
+        <div id="staff-card" className="col s12 m3">
             <div className="card-image center small">
-                    <BoardImage
-                        name={props.name}
-                    />
+                <StaffImage
+                    name={props.name}
+                />
             </div>
             <div className="card-content center">
                 <h6>{props.name}</h6>
@@ -18,4 +18,4 @@ function BoardGrid(props) {
     )
 }
 
-export default BoardGrid
+export default StaffGrid

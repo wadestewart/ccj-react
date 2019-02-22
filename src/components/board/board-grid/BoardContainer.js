@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import './Board.css'
 import BoardGrid from './BoardGrid'
 
-class GridContainer extends Component {
+class BoardContainer extends Component {
     render() {
 
     const boardGrid = this.props.boardMembers.map(member => {
@@ -29,4 +29,4 @@ class GridContainer extends Component {
     }
 }
 
-export default GridContainer
+export default BoardContainer

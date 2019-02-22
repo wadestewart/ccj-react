@@ -1,3 +1,19 @@
 .board-title {
-    margin: 2rem 0 !important;
+    margin: 2rem 4rem !important;
+}
+
+#board-card {
+    margin: 1rem 0 ;
+}
+
+img.circle {
+    cursor: pointer;
+}
+
+img.circle:hover ~ .card-content > h6.text {
+    color: red;
+}
+
+.card-content > h6{
+    transition: color 0.5s ease;
 }
