@@ -5,7 +5,7 @@ import StaffImage from './StaffImage'
 function StaffGrid(props) {
     // console.log(props)
     return(
-        <div id="staff-card" className="col s12 m3">
+        <div id="staff-card" className="col s12 m2">
             <div className="card-image center small">
                 <StaffImage
                     name={props.name}

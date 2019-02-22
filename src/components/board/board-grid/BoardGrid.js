@@ -5,7 +5,7 @@ import BoardImage from './BoardImage'
 function BoardGrid(props) {
     // console.log(props)
     return(
-        <div id="board-card" className="col s12 m3">
+        <div id="board-card" className="col s12 m2">
             <div className="card-image center small">
                     <BoardImage
                         name={props.name}
