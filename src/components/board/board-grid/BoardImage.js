@@ -6,7 +6,7 @@ function BoardImage(props) {
     const altTag = `Picture of ${props.name}`
 
     return (
-        <img src={image} alt={altTag} />
+        <img class="circle responsive-img" src={image} alt={altTag} />
     )
 }
 

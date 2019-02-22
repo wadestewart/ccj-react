@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
+import './Board.css'
 import BoardGrid from './BoardGrid'
 
 class GridContainer extends Component {
     render() {
-        
+
     const boardGrid = this.props.boardMembers.map(member => {
         return(
             // console.log(member)
@@ -20,7 +21,8 @@ class GridContainer extends Component {
     })
 
     return (
-        <div>
+        <div id="leaderhip" className="row">
+            <h5 className="board-title">Board of Directors</h5>
             {boardGrid}
         </div>
     )
