@@ -5,7 +5,7 @@ import darkImage from '../../logos/ccj_landing_logo.jpg'
 
 function About() {
     return (
-        <div>
+        <div className="about">
             <figure className="center">
                 <img src={darkImage} alt="CCJ Logo" />
             </figure>

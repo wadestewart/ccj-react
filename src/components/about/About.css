@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
-.about-title, .about-subtitle {
+.about {
+    margin: 0 0 10rem 0;
+}
+
+.about-title {
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+.about-subtitle {
+    font-family: 'Raleway', sans-serif;
+    margin: 1rem 0;
 }
 
 p {
     font-family: 'Lato', sans-serif;
+    margin: 1rem 0 2rem 0;
 }
