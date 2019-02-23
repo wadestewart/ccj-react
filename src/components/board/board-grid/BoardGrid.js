@@ -6,7 +6,7 @@ import {
 import BoardImage from '../BoardImage'
 
 function BoardGrid(props) {
-    let pathname = `/directors/${props.id}`
+    let pathname = `/directors/${props.name}`
     return(
         <Link to={pathname}>
         <div id="board-card" className="col s12 m2">

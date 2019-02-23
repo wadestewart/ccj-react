@@ -6,17 +6,16 @@ import BoardGrid from './BoardGrid'
 class BoardContainer extends Component {
     render() {
 
-    const boardGrid = this.props.boardMembers.map(member => {
+    const directorsGrid = this.props.directors.map(director => {
         return(
-            // console.log(member)
             <BoardGrid
-                key={member.id}
-                id={member.id}
-                imgUrl={member.image}
-                name={member.name}
-                position={member.board_position}
-                job={member.job}
-                bio={member.bio}
+                key={director.id}
+                id={director.id}
+                imgUrl={director.image}
+                name={director.name}
+                position={director.board_position}
+                job={director.job}
+                bio={director.bio}
             />
         )
     })
@@ -24,7 +23,7 @@ class BoardContainer extends Component {
     return (
         <div id="leadership" className="row">
             <h5 className="board-title">Board of Directors</h5>
-            {boardGrid}
+            {directorsGrid}
         </div>
     )
     }

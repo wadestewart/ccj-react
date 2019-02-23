@@ -12,7 +12,7 @@ import Header from '../header/Header'
 import Landing from '../landing-page/Landing'
 import About from '../about/About'
 import BoardContainer from '../board/board-grid/BoardContainer'
-import Director from '../board/Director'
+import Director from '../board/director/Director'
 import StaffContainer from '../staff/staff-grid/StaffContainer'
 import Contact from '../contact/Contact'
 
@@ -20,7 +20,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      board: data.boardData,
+      directors: data.directorsData,
       staff: data.staffData
     }
   }
@@ -33,8 +33,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Landing} />
             <Route exact path="/about" component={About} />
-            <Route exact path="/directors" render={() => <BoardContainer boardMembers={this.state.board} />} />
-            <Route path="/directors/:id" render={(props) => <Director {...props} board={this.state.board} />} />
+            <Route exact path="/directors" render={() => <BoardContainer directors={this.state.directors} />} />
+            <Route path="/directors/:name" render={(props) => <Director {...props} directors={this.state.directors} />} />
             <Route exact path="/staff" render={() => <StaffContainer staffMembers={this.state.staff} />} />
             <div className="row">
               <Contact/>

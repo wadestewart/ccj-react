@@ -1,5 +1,5 @@
 const data = {
-    boardData: [
+    directorsData: [
         {
             "id": 1,
             "image": "../images-board/placeholder.jpg",
