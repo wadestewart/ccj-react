@@ -10,7 +10,7 @@
 }
 
 #board-card:hover {
-    color: red;
+    color: #8ac6d0 !important;
 }
 
 .card-content.center {
