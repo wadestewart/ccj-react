@@ -29,8 +29,10 @@ class App extends Component {
             <StaffContainer
               staffMembers={this.state.staff}
             />
-            <MailListForm/>
-            {/* <Contact/> */}
+            <div className="row">
+              <MailListForm/>
+              {/* <Contact/> */}
+            </div>
           </div>
       </div>
     )

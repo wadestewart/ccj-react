@@ -27,7 +27,7 @@ class MailListForm extends Component {
     render() {
 
         return (
-            <div>
+            <div className="col s12 m6">
                 <div id="sib_embed_signup">
                     <div className="forms-builder-wrapper">
                         <form className="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/3s8w2/id/2" method="POST">
