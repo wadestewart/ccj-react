@@ -10,6 +10,7 @@
 }
 
 #board-card {
+    color: #36213e;
     cursor: pointer;
     margin: 1rem 0;
 }

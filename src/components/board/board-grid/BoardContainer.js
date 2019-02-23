@@ -11,6 +11,7 @@ class BoardContainer extends Component {
             // console.log(member)
             <BoardGrid
                 key={member.id}
+                id={member.id}
                 imgUrl={member.image}
                 name={member.name}
                 position={member.board_position}

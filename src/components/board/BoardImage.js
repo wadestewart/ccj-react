@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../images-board/placeholder.jpg'
+import image from './images-board/placeholder.jpg'
 
 function BoardImage(props) {
     const altTag = `Picture of ${props.name}`
