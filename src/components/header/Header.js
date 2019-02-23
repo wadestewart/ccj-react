@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import {
+    Link
+} from 'react-router-dom'
 
 import './Header.css'
 import navLogo from '../../logos/ccj_logo_nav.png'
@@ -14,8 +17,8 @@ class Header extends Component {
         return (
             <div className="navbar-fixed">
                 <ul id="dropdown1" className="dropdown-content">
-                    <li><a id="nav-text" href="#leadership">BOARD OF DIRECTORS</a></li>
-                    <li><a id="nav-text" href="#trustees">STAFF</a></li>
+                    <li><Link id="nav-text" to="/directors">BOARD OF DIRECTORS</Link></li>
+                    <li><Link id="nav-text" to="/staff">STAFF</Link></li>
                 </ul>
                 <nav>
                     <div className="nav-wrapper">
@@ -23,9 +26,9 @@ class Header extends Component {
                             <img className="responsive-img" src={navLogo} alt="CCJ Logo" />
                         </a>
                         <ul className="right hide-on-med-and-down">
-                            <li><a id="nav-text" href="#about">ABOUT</a></li>
+                            <li><Link id="nav-text" to="/about">ABOUT</Link></li>
                             <li><a id="nav-text" className="dropdown-trigger" href="#!" data-target="dropdown1">LEADERSHIP<i className="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a id="nav-text" href="#contact">CONTACT</a></li>
+                            <li><Link id="nav-text" to="/contact">CONTACT</Link></li>
                             <li><a id="nav-text" href="https://moz.com/beginners-guide-to-seo" rel="noopener noreferrer" target='_blank'>SUPPORT US</a></li>
                         </ul>
                     </div>
