@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './Staff.css'
+import './StaffGrid.css'
 import StaffGrid from './StaffGrid'
 
 class StaffContainer extends Component {

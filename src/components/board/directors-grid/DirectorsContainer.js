@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-import './Board.css'
-import BoardGrid from './BoardGrid'
+import './Directors.css'
+import DirectorsGrid from './DirectorsGrid'
 
-class BoardContainer extends Component {
+class DirectorsContainer extends Component {
     render() {
 
     const directorsGrid = this.props.directors.map(director => {
         return(
-            <BoardGrid
+            <DirectorsGrid
                 key={director.id}
                 id={director.id}
                 imgUrl={director.image}
@@ -29,4 +29,4 @@ class BoardContainer extends Component {
     }
 }
 
-export default BoardContainer
+export default DirectorsContainer

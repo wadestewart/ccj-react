@@ -5,7 +5,7 @@ import './Contact.css'
 
 function Contact() {
     return(
-        <div>
+        <div className="row">
             <MailListForm />
             <div id="contact" className="center col s12 m6">
                 <h4>Adam Gelb</h4>

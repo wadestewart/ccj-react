@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
+.navbar-fixed {
+    font-family: 'Raleway', sans-serif;
+}
+
 .brand-logo {
     height: 4rem;
     margin: 0 0 0 4rem;
