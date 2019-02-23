@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
+#sib_embed_signup {
+    margin: 7.5rem 0 0 0;
+}
+
 .title {
     font-family: 'Raleway', sans-serif;
 }
@@ -16,4 +20,20 @@ span {
     background-color: #8ac6d0 !important;
     color: #36213e !important;
     font-family: 'Lato', sans-serif;
+}
+
+#contact {
+    margin: 7.5rem 0 0 0;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h5, p {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    margin: 0 0 5rem 0;
 }
