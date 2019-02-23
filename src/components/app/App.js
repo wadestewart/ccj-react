@@ -3,7 +3,7 @@ import data from '../../data'
 
 import './App.css'
 import Header from '../header/Header' 
-import DarkSquareImage from '../dark-square-logo/DarkSquareImage'
+import About from '../about/About'
 import BoardContainer from '../board/board-grid/BoardContainer'
 import StaffContainer from '../staff/staff-grid/StaffContainer'
 import MailListForm from '../contact/MailListForm'
@@ -22,7 +22,7 @@ class App extends Component {
       <div>
         <Header/>
           <div className="main">
-            <DarkSquareImage/>
+            <About/>
             <BoardContainer
               boardMembers={this.state.board}
             />

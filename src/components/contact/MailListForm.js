@@ -41,7 +41,7 @@ class MailListForm extends Component {
                             <div className="sib-container rounded ui-sortable">
                                 <input type="hidden" name="req_hid" id="req_hid" value="~LASTNAME~FIRSTNAME" />
                                 <div className="header" >
-                                    <h1 className="title editable" data-editfield="newsletter_name">Join Our Mailing List</h1>
+                                    <h4 className="title editable" data-editfield="newsletter_name">Join Our Mailing List</h4>
                                 </div>
                                 <div className="view-messages"></div> 
                                 <div className="primary-group email-group forms-builder-group ui-sortable">
@@ -55,7 +55,7 @@ class MailListForm extends Component {
                                                 <div className="hidden-btns"><br /></div>
                                         </div>
                                         <div className="mandatory-email">
-                                            <div className="lbl-tinyltr">Enter your email address to subscribe. <span> *</span></div>
+                                            <div className="lbl-tinyltr">Enter Your Email Address To Subscribe. <span> *</span></div>
                                                 <input required type="email" name="email" id="email" value={this.state.value} onChange={this.handleChange} />
                                             <div className="hidden-btns"><br /></div>
                                         </div>

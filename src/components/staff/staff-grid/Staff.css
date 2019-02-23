@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
 .staff-title {
-    margin: 2rem 1rem !important;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 #staff-card {
+    cursor: pointer;
     margin: 1rem 0 ;
 }
 
-img.circle {
-    cursor: pointer;
+#staff-card:hover {
+    color: red;
+}
+
+.card-content.center {
+    transition: color 0.25s ease;
 }

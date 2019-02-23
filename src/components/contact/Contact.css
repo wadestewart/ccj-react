@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+.title {
+    font-family: 'Raleway', sans-serif;
+}
+
+.lbl-tinyltr {
+    font-family: 'Raleway', sans-serif;
+}
+
 span {
     color: red;
 }
@@ -5,4 +15,5 @@ span {
 .waves-effect {
     background-color: #8ac6d0 !important;
     color: #36213e !important;
+    font-family: 'Lato', sans-serif;
 }

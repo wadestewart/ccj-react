@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
 .board-title {
-    margin: 2rem 1rem !important;
+    font-family: 'Raleway', sans-serif;
 }
 
 #board-card {
     cursor: pointer;
-    margin: 1rem 0 ;
+    margin: 1rem 0;
 }
 
 #board-card:hover {
