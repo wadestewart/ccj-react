@@ -3,17 +3,14 @@
 }
 
 #board-card {
+    cursor: pointer;
     margin: 1rem 0 ;
 }
 
-img.circle {
-    cursor: pointer;
-}
-
-img.circle.responsive-img:hover + .card-content.center {
-    color: red !important;
+#board-card:hover {
+    color: red;
 }
 
 .card-content.center {
-    transition: color 0.5s ease;
+    transition: color 0.25s ease;
 }

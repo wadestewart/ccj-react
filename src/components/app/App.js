@@ -6,6 +6,7 @@ import Header from '../header/Header'
 import DarkSquareImage from '../dark-square-logo/DarkSquareImage'
 import BoardContainer from '../board/board-grid/BoardContainer'
 import StaffContainer from '../staff/staff-grid/StaffContainer'
+import MailListForm from '../contact/MailListForm'
 
 class App extends Component {
   constructor() {
@@ -28,6 +29,8 @@ class App extends Component {
             <StaffContainer
               staffMembers={this.state.staff}
             />
+            <MailListForm/>
+            {/* <Contact/> */}
           </div>
       </div>
     )
