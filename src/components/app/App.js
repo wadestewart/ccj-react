@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
-import data from '../../data'
 
+import data from '../../data'
 import './App.css'
-import Header from '../header/Header' 
+
+import Header from '../header/Header'
+import Landing from '../landing-page/Landing'
 import About from '../about/About'
 import BoardContainer from '../board/board-grid/BoardContainer'
 import StaffContainer from '../staff/staff-grid/StaffContainer'

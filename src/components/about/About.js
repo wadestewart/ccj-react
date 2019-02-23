@@ -1,14 +1,13 @@
 import React from 'react'
 
 import './About.css'
-import darkImage from '../../logos/ccj_landing_logo.jpg'
 
 function About() {
     return (
-        <div className="about">
-            <figure className="center">
+        <div id="about">
+            {/* <figure className="center">
                 <img src={darkImage} alt="CCJ Logo" />
-            </figure>
+            </figure> */}
             <h4 className="about-title">Who We Are</h4>
             <h5 className="about-subtitle">What We Believe</h5>
             <p>
