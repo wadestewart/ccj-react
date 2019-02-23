@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "1afa031a65efb94acdf7",
-    "url": "/ccj-react/static/css/main.85203839.chunk.css"
+    "revision": "e042de0a85b73541c005",
+    "url": "/ccj-react/static/css/main.6e69b768.chunk.css"
   },
   {
-    "revision": "1afa031a65efb94acdf7",
-    "url": "/ccj-react/static/js/main.1afa031a.chunk.js"
+    "revision": "e042de0a85b73541c005",
+    "url": "/ccj-react/static/js/main.e042de0a.chunk.js"
   },
   {
-    "revision": "cc05cf16c8f83abe2897",
-    "url": "/ccj-react/static/css/1.297467da.chunk.css"
+    "revision": "01d4225c54548a95c26a",
+    "url": "/ccj-react/static/css/1.4846ca81.chunk.css"
   },
   {
-    "revision": "cc05cf16c8f83abe2897",
-    "url": "/ccj-react/static/js/1.cc05cf16.chunk.js"
+    "revision": "01d4225c54548a95c26a",
+    "url": "/ccj-react/static/js/1.01d4225c.chunk.js"
   },
   {
     "revision": "a3fef471b6e9aa826dd1",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/ccj-react/static/media/placeholder.732bca29.jpg"
   },
   {
-    "revision": "646d31ab2851e7ddc426559d24ce2a9f",
+    "revision": "650e979c2212f718cc990f00494884d6",
     "url": "/ccj-react/index.html"
   }
 ];
