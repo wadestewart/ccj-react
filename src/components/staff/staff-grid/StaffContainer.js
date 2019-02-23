@@ -19,7 +19,7 @@ class StaffContainer extends Component {
     })
 
     return (
-        <div id="leaderhip" className="row">
+        <div id="staff" className="row">
             <h5 className="staff-title">Staff</h5>
             {staffGrid}
         </div>

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
+#staff {
+    margin: 0 0 7.5rem 0;
+}
+
 .staff-title {
     font-family: 'Raleway', sans-serif !important;
 }

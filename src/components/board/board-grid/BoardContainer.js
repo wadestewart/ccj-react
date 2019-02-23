@@ -21,7 +21,7 @@ class BoardContainer extends Component {
     })
 
     return (
-        <div id="leaderhip" className="row">
+        <div id="leadership" className="row">
             <h5 className="board-title">Board of Directors</h5>
             {boardGrid}
         </div>
