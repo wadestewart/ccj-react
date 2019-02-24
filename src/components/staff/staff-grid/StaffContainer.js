@@ -10,7 +10,7 @@ class StaffContainer extends Component {
         return(
             <StaffGrid
                 key={member.id}
-                imgUrl={member.image}
+                imageUrl={member.imageUrl}
                 name={member.name}
                 title={member.title}
                 bio={member.bio}

@@ -6,13 +6,20 @@ import {
 import StaffImage from '../StaffImage'
 
 function StaffGrid(props) {
-    let pathname = `/staff/${props.name}`
+    console.log(props)
+    const pathname = `/staff/${props.name}`
+    // const altTag = `Picture of ${props.name}`
+    // const imageUrl = props.imageUrl
     return(
         <Link to={pathname}>
-            <div id="staff-card" className="col s12 m2">
+            <div id="staff-card" className="col s12 m3">
                 <div className="card-image center small">
+                    {/* <figure>
+                        <img src={imageUrl} alt={altTag} />
+                    </figure> */}
                     <StaffImage
                         name={props.name}
+                        imageUrl={props.imageUrl}
                     />
                 </div>
                 <div className="card-content center">

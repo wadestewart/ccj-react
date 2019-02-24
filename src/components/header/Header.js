@@ -22,7 +22,7 @@ class Header extends Component {
                 </ul>
                 <nav>
                     <div className="nav-wrapper">
-                        <a href="https://wadestewart.github.io/ccj-react" className="brand-logo">
+                        <a href="/" className="brand-logo">
                             <img className="responsive-img" src={navLogo} alt="CCJ Logo" />
                         </a>
                         <ul className="right hide-on-med-and-down">
