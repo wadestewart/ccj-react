@@ -9,7 +9,10 @@ function Staff(props) {
     return(
         <div className="container">
             <h2>{staff.name}</h2>
-            <StaffImage/>
+            <StaffImage
+                name={staff.name}
+                imageUrl={staff.imageUrl}
+            />
             <h5>{staff.title}</h5>
             <div className="divider"></div>
             <p>{staff.bio}</p>
