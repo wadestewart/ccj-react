@@ -4,6 +4,7 @@ import BoardImage from '../BoardImage'
 import './Director.css'
 
 function Director(props) {
+    console.log(props)
     let director = props.directors.find(director => director.name === props.match.params.name)
     return(
         <div className="container">
