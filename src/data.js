@@ -10,7 +10,7 @@ const data = {
         },
         {
             "id": 2,
-            "imageUrl": "/img/directors/jim_seward.jpg",
+            "imageUrl": "/ccj-react/img/directors/jim_seward.jpg",
             "name": "Jim Seward",
             "board_position": "",
             "job": "General Counsel, Black Hills Corporation",
@@ -18,7 +18,7 @@ const data = {
         },
         {
             "id": 3,
-            "imageUrl": "/img/directors/michael_jacobson.jpg",
+            "imageUrl": "/ccj-react/img/directors/michael_jacobson.jpg",
             "name": "Michael Jacobson",
             "board_position": "CCJ Treasurer",
             "job": "Executive Director, CUNY Institute for State and Local Governance",
@@ -26,7 +26,7 @@ const data = {
         },
         {
             "id": 4,
-            "imageUrl": "/img/directors/kathi_westcott.png",
+            "imageUrl": "/ccj-react/img/directors/kathi_westcott.png",
             "name": "Kathi Westcott",
             "board_position": "",
             "job": "Senior Counsel, The Pew Charitable Trusts",
@@ -34,7 +34,7 @@ const data = {
         },
         {
             "id": 5,
-            "imageUrl": "/img/directors/roy_austin.jpg",
+            "imageUrl": "/ccj-react/img/directors/roy_austin.jpg",
             "name": "Roy Austin",
             "board_position": "",
             "job": "Partner, Harris, Wiltshire & Grannis LLP",
@@ -42,7 +42,7 @@ const data = {
         },
         {
             "id": 6,
-            "imageUrl": "/img/directors/flozell_daniels.jpg",
+            "imageUrl": "/ccj-react/img/directors/flozell_daniels.jpg",
             "name": "Flozell Daniels",
             "board_position": "",
             "job": "President and CEO, Foundation for Louisiana",
@@ -50,7 +50,7 @@ const data = {
         },
         {
             "id": 7,
-            "imageUrl": "/img/directors/marissa_dodson.jpg",
+            "imageUrl": "/ccj-react/img/directors/marissa_dodson.jpg",
             "name": "Marissa Dodson",
             "board_position": "",
             "job": "Public Policy Director, Southern Center for Human Rights",
@@ -58,7 +58,7 @@ const data = {
         },
         {
             "id": 8,
-            "imageUrl": "/img/directors/justin_keener.jpg",
+            "imageUrl": "/ccj-react/img/directors/justin_keener.jpg",
             "name": "Justin Keener",
             "board_position": "",
             "job": "Partner, Granite Public Affairs",
@@ -66,7 +66,7 @@ const data = {
         },
         {
             "id": 9,
-            "imageUrl": "/img/directors/gil_kerlikowske.jpg",
+            "imageUrl": "/ccj-react/img/directors/gil_kerlikowske.jpg",
             "name": "Gil Kerlikowske",
             "board_position": "",
             "job": "Professor, Northeastern University",
@@ -74,7 +74,7 @@ const data = {
         },
         {
             "id": 10,
-            "imageUrl": "/img/directors/gerald_malloy.jpg",
+            "imageUrl": "/ccj-react/img/directors/gerald_malloy.jpg",
             "name": "Gerald Malloy",
             "board_position": "",
             "job": "South Carolina State Senator",
@@ -82,7 +82,7 @@ const data = {
         },
         {
             "id": 11,
-            "imageUrl": "/img/directors/don_stern.jpg",
+            "imageUrl": "/ccj-react/img/directors/don_stern.jpg",
             "name": "Don Stern",
             "board_position": "",
             "job": "Of Counsel, Yurko, Salvesen & Remz",
@@ -90,7 +90,7 @@ const data = {
         },
         {
             "id": 12,
-            "imageUrl": "/img/directors/nicole_surber.jpg",
+            "imageUrl": "/ccj-react/img/directors/nicole_surber.jpg",
             "name": "Nicole Surber",
             "board_position": "",
             "job": "Chief Development Officer, Freedom House",
@@ -98,7 +98,7 @@ const data = {
         },
         {
             "id": 13,
-            "imageUrl": "/img/directors/brett_tolman.jpg",
+            "imageUrl": "/ccj-react/img/directors/brett_tolman.jpg",
             "name": "Brett Tolman",
             "board_position": "",
             "job": "Shareholder, Ray, Quinney & Nebeker",
@@ -106,7 +106,7 @@ const data = {
         },
         {
             "id": 14,
-            "imageUrl": "/img/directors/jo-ann_wallace.png",
+            "imageUrl": "/ccj-react/img/directors/jo-ann_wallace.png",
             "name": "Jo-Ann Wallace",
             "board_position": "",
             "job": "President and CEO, National Legal Aid and Defender Association",
@@ -114,7 +114,7 @@ const data = {
         },
         {
             "id": 15,
-            "imageUrl": "/img/directors/dan_wilhelm.jpg",
+            "imageUrl": "/ccj-react/img/directors/dan_wilhelm.jpg",
             "name": "Dan Wilhelm",
             "board_position": "",
             "job": "President, The Harry Frank Guggenheim Foundation",
@@ -124,14 +124,14 @@ const data = {
     staffData: [
         {
             "id": 1,
-            "imageUrl": "/img/staff/adam_gelb.jpg",
+            "imageUrl": "/ccj-react/img/staff/adam_gelb.jpg",
             "name": "Adam Gelb",
             "title": "CCJ President and CEO",
             "bio": "Before launching the Council, Gelb spent 12 years leading the Pew Charitable Trusts’ Public Safety Performance Project, producing research that documented the high cost and low public safety return of traditional sentencing and corrections policies and helping 35 states adopt groundbreaking justice reforms. Gelb also staffed the U.S. Senate Judiciary Committee during negotiations over the 1994 crime bill and worked for governors in Georgia and Maryland."
         },
         {
             "id": 2,
-            "imageUrl": "/img/staff/abby_walsh.jpg",
+            "imageUrl": "/ccj-react/img/staff/abby_walsh.jpg",
             "name": "Abby Walsh",
             "title": "CCJ Director",
             "bio": "As a leader of state engagements for the Pew Charitable Trusts, Walsh spent more than five years partnering with policymakers to enact data-driven solutions that safely reduced prison populations, improved outcomes for youth in juvenile justice systems, and expanded treatment for substance use disorders. Earlier, she worked to modernize court practices and data collection in the federal judiciary."
