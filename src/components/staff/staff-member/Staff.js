@@ -4,7 +4,6 @@ import StaffImage from '../StaffImage'
 import './Staff.css'
 
 function Staff(props) {
-    // console.log(props)
     let staff = props.staff.find(staff => staff.name === props.match.params.name)
     return(
         <div className="container">
