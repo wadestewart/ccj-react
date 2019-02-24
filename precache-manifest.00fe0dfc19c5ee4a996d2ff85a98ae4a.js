@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6c2d2573d940d44687d4",
+    "revision": "40703d46c4897d20d87f",
     "url": "/ccj-react/static/css/main.fa42ad54.chunk.css"
   },
   {
-    "revision": "6c2d2573d940d44687d4",
-    "url": "/ccj-react/static/js/main.6c2d2573.chunk.js"
+    "revision": "40703d46c4897d20d87f",
+    "url": "/ccj-react/static/js/main.40703d46.chunk.js"
   },
   {
     "revision": "e47f21e48d1662517a5b",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ccj-react/static/media/ccj_landing_logo.1ea48e02.jpg"
   },
   {
-    "revision": "9a44ce5ec870e5816454f7bbff06e0f3",
+    "revision": "4c41757929a1496e71d4637da8834698",
     "url": "/ccj-react/index.html"
   }
 ];
