@@ -10,7 +10,7 @@ const data = {
         },
         {
             "id": 2,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/jim_seward.jpg",
             "name": "Jim Seward",
             "board_position": "",
             "job": "General Counsel, Black Hills Corporation",
@@ -18,7 +18,7 @@ const data = {
         },
         {
             "id": 3,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/michael_jacobson.jpg",
             "name": "Michael Jacobson",
             "board_position": "CCJ Treasurer",
             "job": "Executive Director, CUNY Institute for State and Local Governance",
@@ -26,7 +26,7 @@ const data = {
         },
         {
             "id": 4,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/kathi_westcott.jpg",
             "name": "Kathi Westcott",
             "board_position": "",
             "job": "Senior Counsel, The Pew Charitable Trusts",
@@ -34,7 +34,7 @@ const data = {
         },
         {
             "id": 5,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/roy_austin.jpg",
             "name": "Roy Austin",
             "board_position": "",
             "job": "Partner, Harris, Wiltshire & Grannis LLP",
@@ -42,7 +42,7 @@ const data = {
         },
         {
             "id": 6,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/flozell_daniels.jpg",
             "name": "Flozell Daniels",
             "board_position": "",
             "job": "President and CEO, Foundation for Louisiana",
@@ -50,7 +50,7 @@ const data = {
         },
         {
             "id": 7,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/marissa_dodson.jpg",
             "name": "Marissa Dodson",
             "board_position": "",
             "job": "Public Policy Director, Southern Center for Human Rights",
@@ -58,7 +58,7 @@ const data = {
         },
         {
             "id": 8,
-            "imageUrl": "./images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/justin_keener.jpg",
             "name": "Justin Keener",
             "board_position": "",
             "job": "Partner, Granite Public Affairs",
@@ -66,7 +66,7 @@ const data = {
         },
         {
             "id": 9,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/gil_kerlikowske.jpg",
             "name": "Gil Kerlikowske",
             "board_position": "",
             "job": "Professor, Northeastern University",
@@ -74,7 +74,7 @@ const data = {
         },
         {
             "id": 10,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/gerald_malloy.jpg",
             "name": "Gerald Malloy",
             "board_position": "",
             "job": "South Carolina State Senator",
@@ -82,7 +82,7 @@ const data = {
         },
         {
             "id": 11,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/don_stern.jpg",
             "name": "Don Stern",
             "board_position": "",
             "job": "Of Counsel, Yurko, Salvesen & Remz",
@@ -90,7 +90,7 @@ const data = {
         },
         {
             "id": 12,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/nicole_surber.jpg",
             "name": "Nicole Surber",
             "board_position": "",
             "job": "Chief Development Officer, Freedom House",
@@ -98,7 +98,7 @@ const data = {
         },
         {
             "id": 13,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/brett_tolman.jpg",
             "name": "Brett Tolman",
             "board_position": "",
             "job": "Shareholder, Ray, Quinney & Nebeker",
@@ -106,7 +106,7 @@ const data = {
         },
         {
             "id": 14,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/jo-ann_wallace.jpg",
             "name": "Jo-Ann Wallace",
             "board_position": "",
             "job": "President and CEO, National Legal Aid and Defender Association",
@@ -114,7 +114,7 @@ const data = {
         },
         {
             "id": 15,
-            "imageUrl": "../images-board/placeholder.jpg",
+            "imageUrl": "/img/directors/dan_wilhelm.jpg",
             "name": "Dan Wilhelm",
             "board_position": "",
             "job": "President, The Harry Frank Guggenheim Foundation",
