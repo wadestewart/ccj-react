@@ -1,7 +1,6 @@
 import React from 'react'
 
 function BoardImage(props) {
-    console.log(props)
     const altTag = `Picture of ${props.name}`
 
     return (

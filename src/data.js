@@ -26,7 +26,7 @@ const data = {
         },
         {
             "id": 4,
-            "imageUrl": "/img/directors/kathi_westcott.jpg",
+            "imageUrl": "/img/directors/kathi_westcott.png",
             "name": "Kathi Westcott",
             "board_position": "",
             "job": "Senior Counsel, The Pew Charitable Trusts",
@@ -106,7 +106,7 @@ const data = {
         },
         {
             "id": 14,
-            "imageUrl": "/img/directors/jo-ann_wallace.jpg",
+            "imageUrl": "/img/directors/jo-ann_wallace.png",
             "name": "Jo-Ann Wallace",
             "board_position": "",
             "job": "President and CEO, National Legal Aid and Defender Association",

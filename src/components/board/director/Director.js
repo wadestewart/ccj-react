@@ -9,7 +9,10 @@ function Director(props) {
     return(
         <div className="container">
             <h2>{director.name}</h2>
-            <BoardImage/>
+            <BoardImage
+                name={director.name}
+                imageUrl={director.imageUrl}
+            />
             <h4>{director.board_position}</h4>
             <div className="divider"></div>
             <h5>{director.job}</h5>
