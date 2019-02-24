@@ -10,7 +10,7 @@ import 'materialize-css/dist/css/materialize.min.css'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/ccj-react">
         <App />
     </Router>,
     document.getElementById('root')
