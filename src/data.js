@@ -2,7 +2,7 @@ const data = {
     directorsData: [
         {
             "id": 1,
-            "imageUrl": "/img/directors/laurie_robinson.jpg",
+            "imageUrl": "/ccj-react/img/directors/laurie_robinson.jpg",
             "name": "Laurie Robinson",
             "board_position": "CCJ Board Chair",
             "job": "Professor, George Mason University",
