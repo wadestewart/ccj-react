@@ -11,7 +11,7 @@ class DirectorsContainer extends Component {
             <DirectorsGrid
                 key={director.id}
                 id={director.id}
-                imgUrl={director.image}
+                imageUrl={director.imageUrl}
                 name={director.name}
                 position={director.board_position}
                 job={director.job}

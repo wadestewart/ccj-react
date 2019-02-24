@@ -1,11 +1,13 @@
 import React from 'react'
-import image from './images-board/placeholder.jpg'
 
 function BoardImage(props) {
+    console.log(props)
     const altTag = `Picture of ${props.name}`
 
     return (
-        <img className="circle responsive-img" src={image} alt={altTag} />
+        <figure>
+            <img className="circle responsive-img" src={props.imageUrl} alt={altTag} />
+        </figure>
     )
 }
 

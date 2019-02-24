@@ -6,6 +6,7 @@ import {
 import BoardImage from '../BoardImage'
 
 function BoardGrid(props) {
+    // console.log(props)
     let pathname = `/directors/${props.name}`
     return(
         <Link to={pathname}>
@@ -13,6 +14,7 @@ function BoardGrid(props) {
             <div className="card-image center small">
                 <BoardImage
                     name={props.name}
+                    imageUrl={props.imageUrl}
                 />
             </div>
             <div className="card-content center">
