@@ -9,7 +9,7 @@ function BoardGrid(props) {
     let pathname = `/directors/${props.name}`
     return(
         <Link to={pathname}>
-        <div id="board-card" className="col s12 m2">
+        <div id="board-card" className="col s12 m3">
             <div className="card-image center small">
                 <BoardImage
                     name={props.name}
