@@ -1,12 +1,20 @@
 import React from 'react'
 
-import darkImage from '../../logos/ccj_landing_logo.jpg'
+import './Landing.css'
+
+import pillarImage from './lady_justice.png'
+import About from '../about/About'
 
 function Landing() {
     return(
-        <figure className="center">
-            <img src={darkImage} alt="CCJ Block Logo" />
-        </figure>
+        <div className="landing">
+            <div className="row">
+                <figure className="col s12 m6">
+                    <img src={pillarImage} alt="" />
+                </figure>
+            </div>
+            <About/>
+        </div>
     )
 }
 
