@@ -9,7 +9,7 @@ import MailListForm from '../mail-list/MailListForm'
 function Landing() {
     return(
         <div className="landing">
-            <div className="row">
+            <div id="first-lander" className="row">
                 <figure className="col s12 m6">
                     <img src={pillarImage} alt="" />
                 </figure>

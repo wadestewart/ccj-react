@@ -1,3 +1,8 @@
+#first-lander {
+    height: 100vh;
+    overflow: hidden;
+}
+
 figure.col {
     margin: 0;
     padding: 0 !important;

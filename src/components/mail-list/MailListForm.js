@@ -54,24 +54,24 @@ class MailListForm extends Component {
                                 <div className="primary-group email-group forms-builder-group ui-sortable">
                                     <div>
                                         <div className="mandatory-email">
-                                            <div className="lbl-tinyltr">Enter Your Email Address To Subscribe. <span> *</span></div>
-                                                <input required type="email" name="email" id="email" value={this.state.value} onChange={this.handleChange} />
+                                            {/* <div className="lbl-tinyltr">Enter Your Email Address To Subscribe. <span> *</span></div> */}
+                                            <input required type="email" name="email" id="email" placeholder="Email" value={this.state.value} onChange={this.handleChange} />
                                             <div className="hidden-btns"><br /></div>
                                         </div>
                                         <div>
-                                            <div className="lbl-tinyltr">First Name<span> *</span></div>
-                                                <input required type="text" name="FIRSTNAME" id="FIRSTNAME" value={this.state.value} onChange={this.handleChange} />
-                                                <div className="hidden-btns"><br/></div>
+                                            {/* <div className="lbl-tinyltr">First Name<span> *</span></div> */}
+                                            <input required type="text" name="FIRSTNAME" id="FIRSTNAME" placeholder="First name" value={this.state.value} onChange={this.handleChange} />
+                                            <div className="hidden-btns"><br/></div>
                                         </div>
                                         <div>
-                                            <div className="lbl-tinyltr">Last Name<span> *</span></div>
-                                                <input required type="text" name="LASTNAME" id="LASTNAME" value={this.state.value} onChange={this.handleChange} />
-                                                <div className="hidden-btns"><br /></div>
+                                            {/* <div className="lbl-tinyltr">Last Name<span> *</span></div> */}
+                                            <input required type="text" name="LASTNAME" id="LASTNAME" placeholder="Last name" value={this.state.value} onChange={this.handleChange} />
+                                            <div className="hidden-btns"><br /></div>
                                         </div>
                                         <div>
-                                            <div className="lbl-tinyltr">Organization</div>
-                                                <input type="text" name="ORGANIZATION" id="ORGANIZATION" value={this.state.value} onChange={this.handleChange} />
-                                                <div className="hidden-btns"><br /></div>
+                                            {/* <div className="lbl-tinyltr">Organization</div> */}
+                                            <input type="text" name="ORGANIZATION" id="ORGANIZATION" placeholder="Organization" value={this.state.value} onChange={this.handleChange} />
+                                            <div className="hidden-btns"><br /></div>
                                         </div>
                                         {/* <div class="captcha forms-builder-group" style="display: none;">
                                             <div>
