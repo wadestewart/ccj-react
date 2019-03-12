@@ -13,8 +13,15 @@ li {
     cursor: pointer;
 }
 
-ul.right {
-    margin: 0 4rem 0 0 !important;
+.support {
+    background-color: #36213e;
+    color: #8ac6d0 !important;
+    width: 12rem;
+}
+
+.support:hover {
+    background-color: #36213e;
+    opacity: 0.9 !important;
 }
 
 .nav-wrapper {

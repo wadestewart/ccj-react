@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './Contact.css'
+import './MailList.css'
 
 class MailListForm extends Component {
     constructor() {
@@ -41,12 +41,12 @@ class MailListForm extends Component {
                             <div className="sib-container rounded ui-sortable">
                                 <input type="hidden" name="req_hid" id="req_hid" value="~LASTNAME~FIRSTNAME" />
                                 <div className="header" >
-                                    <h1 className="title editable" data-editfield="newsletter_name">
-                                        Stay informed.
-                                    </h1>
+                                    <h4 className="title editable" data-editfield="newsletter_name">
+                                        Stay informed
+                                    </h4>
                                 </div>
-                                <div className="description editable" data-editfield="newsletter_description">
-                                   <p>
+                                <div className="row" data-editfield="newsletter_description">
+                                   <p className="col s12 m8">
                                        Subscribe below to receive updates from the Council on Criminal Justice.
                                     </p>
                                 </div>
