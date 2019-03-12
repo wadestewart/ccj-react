@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
-/* #sib_embed_signup {
-    margin: 7.5rem 0 0 0;
-} */
+#mail-list-form {
+    background-color: #f1f1f1;
+    height: 48.76rem;
+    padding: 6rem 0 0 0;
+}
 
 .title {
     font-family: 'Raleway', sans-serif;
@@ -12,29 +14,34 @@
     font-family: 'Raleway', sans-serif;
 }
 
-span {
-    color: red;
+#email, #FIRSTNAME, #LASTNAME {
+    background-color: #fff;
+    border-bottom: none;
+    border-right: 0.5rem solid #ff0000;
+    text-indent: 1rem;
+}
+
+#ORGANIZATION {
+    background-color: #fff;
+    border-bottom: none;
+    text-indent: 1rem;   
+}
+
+#email:focus, #FIRSTNAME:focus, #LASTNAME:focus, #ORGANIZATION:focus {
+    box-shadow: 0 1px 0 0 #8ac6d0 !important;
 }
 
 .waves-effect {
-    background-color: #8ac6d0 !important;
-    color: #36213e !important;
+    background-color: #36213e !important;
+    color: #8ac6d0 !important;
     font-family: 'Lato', sans-serif;
 }
 
-#contact {
-    margin: 7.5rem 0 0 0;
-}
-
-h4, p {
+h5, p {
     font-family: 'Raleway', sans-serif;
 }
 
 p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     margin: 0;
-}
-
-.staff-member {
-    margin: 0 0 5rem 0;
 }
