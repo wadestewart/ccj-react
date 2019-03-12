@@ -1,9 +1,10 @@
 import React from 'react'
 
 import './Landing.css'
+import pillarImage from './lady_justice.jpg'
 
-import pillarImage from './lady_justice.png'
 import About from '../about/About'
+import MailListForm from '../mail-list/MailListForm'
 
 function Landing() {
     return(
@@ -12,6 +13,7 @@ function Landing() {
                 <figure className="col s12 m6">
                     <img src={pillarImage} alt="" />
                 </figure>
+                <MailListForm />
             </div>
             <About/>
         </div>
