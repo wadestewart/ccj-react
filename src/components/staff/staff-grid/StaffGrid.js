@@ -2,10 +2,12 @@ import React from 'react'
 import {
     Link
 } from 'react-router-dom'
+// import Modal from '../Modal'
 
 import StaffImage from '../StaffImage'
 
 function StaffGrid(props) {
+    // console.log(props)
     const pathname = `/staff/${props.name}`
     return(
         <Link to={pathname}>
@@ -20,6 +22,11 @@ function StaffGrid(props) {
                     <h6 className="staff-card-name">{props.name}</h6>
                     <p className="staff-card-title">{props.title}</p>
                 </div>
+                {/* <Modal
+                    name={props.name}
+                    title={props.title}
+                    bio={props.bio}
+                /> */}
             </div>
         </Link>
     )

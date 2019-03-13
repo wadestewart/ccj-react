@@ -22,7 +22,9 @@ function Landing(props) {
             <div className="about">
                 <About/>
             </div>
-            <StaffContainer staffMembers={props.staffMembers} />
+            <StaffContainer
+                staffMembers={props.staffMembers}
+            />
             <div className="twitter">
                 <Footer/>
             </div>

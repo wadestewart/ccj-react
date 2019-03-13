@@ -2,19 +2,27 @@ import React, { Component } from 'react'
 
 import './StaffGrid.css'
 import StaffGrid from './StaffGrid'
+// import Modal from '../Modal'
 
 class StaffContainer extends Component {
     render() {
 
     const staffGrid = this.props.staffMembers.map(member => {
         return(
-            <StaffGrid
-                key={member.id}
-                imageUrl={member.imageUrl}
-                name={member.name}
-                title={member.title}
-                bio={member.bio}
-            />
+                <StaffGrid
+                    key={member.id}
+                    imageUrl={member.imageUrl}
+                    name={member.name}
+                    title={member.title}
+                    // bio={member.bio}
+                />
+                // <Modal
+                //     key={member.id}
+                //     image={member.imageUrl}
+                //     name={member.name}
+                //     title={member.title}
+                //     bio={member.bio}
+                // />
         )
     })
 

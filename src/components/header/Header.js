@@ -17,7 +17,8 @@ class Header extends Component {
         return (
             <div className="navbar-fixed">
                 <ul id="dropdown1" className="dropdown-content">
-                    <li><Link id="nav-text" to="/directors">BOARD OF DIRECTORS</Link></li>
+                    <li><Link id="nav-text" to="/directors">Board Of Directors</Link></li>
+                    <li><Link id="nav-text" to="/trustees">Board Of Trustees</Link></li>
                 </ul>
                 <nav>
                     <div className="nav-wrapper">
@@ -25,9 +26,7 @@ class Header extends Component {
                             <img className="responsive-img" src={navLogo} alt="CCJ Logo" />
                         </a>
                         <ul className="right hide-on-med-and-down">
-                            {/* <li><Link id="nav-text" to="/about">ABOUT</Link></li> */}
                             <li><a id="nav-text" className="dropdown-trigger center" href="#!" data-target="dropdown1">Leadership<i id="leadership-icon" className="material-icons right">arrow_drop_down</i></a></li>
-                            {/* <li><Link id="nav-text" to="/contact">CONTACT</Link></li> */}
                             <li><a id="nav-text" className="support center" href="https://moz.com/beginners-guide-to-seo" rel="noopener noreferrer" target='_blank'>Support Us</a></li>
                         </ul>
                     </div>
