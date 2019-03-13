@@ -6,6 +6,7 @@ import pillarImage from './lady_justice.jpg'
 import About from '../about/About'
 import MailListForm from '../mail-list/MailListForm'
 import StaffContainer from '../staff/staff-grid/StaffContainer'
+import Twitter from '../twitter/Twitter'
 
 function Landing(props) {
     // console.log(props)
@@ -22,6 +23,9 @@ function Landing(props) {
                 <About/>
             </div>
             <StaffContainer staffMembers={props.staffMembers} />
+            <div className="twitter">
+                <Twitter/>
+            </div>
         </div>
     )
 }
