@@ -115,7 +115,7 @@ const data = {
             "name": "Brett Tolman",
             "board_position": "",
             "job": "Shareholder, Ray, Quinney & Nebeker",
-            "bio": "",
+            "bio": "A former federal prosecutor who is now a vocal critic of the criminal justice system and active nationally in pursuit of improvements, Tolman served as U.S. Attorney for the District of Utah during the George W. Bush Administration. Previously, he was chief counsel for the Senate Judiciary Committee, where he focused on crime and terrorism.",
         },
         {
             "id": 14,
