@@ -28,6 +28,15 @@ li {
     background-color: #8ac6d0 !important;
 }
 
+.dropdown-trigger {
+    width: 12rem;
+}
+
+#leadership-icon {
+    margin-left: 0;
+    margin-right: 1rem; 
+}
+
 .dropdown-content {
     background-color: #8ac6d0 !important;
 }

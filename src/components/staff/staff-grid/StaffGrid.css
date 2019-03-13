@@ -8,11 +8,12 @@
 .staff-title {
     font-family: 'Raleway', sans-serif !important;
     margin: 0;
-    padding: 2rem 0;
+    padding: 2rem 0 1rem 0;
 }
 
 .staff-grid-p {
     font-family: 'Lato', sans-serif !important;
+    margin: 0 0 1rem 0;
     padding: 0 20rem;
 }
 

@@ -26,7 +26,7 @@ class Header extends Component {
                         </a>
                         <ul className="right hide-on-med-and-down">
                             {/* <li><Link id="nav-text" to="/about">ABOUT</Link></li> */}
-                            <li><a id="nav-text" className="dropdown-trigger" href="#!" data-target="dropdown1">Leadership<i className="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a id="nav-text" className="dropdown-trigger center" href="#!" data-target="dropdown1">Leadership<i id="leadership-icon" className="material-icons right">arrow_drop_down</i></a></li>
                             {/* <li><Link id="nav-text" to="/contact">CONTACT</Link></li> */}
                             <li><a id="nav-text" className="support center" href="https://moz.com/beginners-guide-to-seo" rel="noopener noreferrer" target='_blank'>Support Us</a></li>
                         </ul>
