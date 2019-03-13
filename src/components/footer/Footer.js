@@ -6,7 +6,7 @@ import Twitter from './Twitter'
 
 function Footer() {
     return (
-        <div>
+        <div className="footer">
             <Twitter />
             <h6 className="footer-title">Council on Criminal Justice</h6>
             <p className="footer-mail">
