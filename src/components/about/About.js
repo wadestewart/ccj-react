@@ -5,7 +5,7 @@ import './About.css'
 function About() {
     return (
         <div id="about">
-            <h4 className="about-title">Who We Are</h4>
+            <h4 className="about-title">About</h4>
             <p className="about-p">
                 The Council on Criminal Justice works to advance understanding of the criminal justice policy choices facing the nation and build consensus for solutions that enhance safety and justice for all. Independent and nonpartisan, we are an invitational membership organization and think tank, serving as a center of gravity and incubator of policy and leadership for the criminal justice field. Harnessing the experience and vision of the nation’s top experts, innovators, and influencers, we are a catalyst for progress based on facts, evidence and fundamental principles of justice.
             </p>

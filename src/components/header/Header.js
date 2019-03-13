@@ -18,7 +18,6 @@ class Header extends Component {
             <div className="navbar-fixed">
                 <ul id="dropdown1" className="dropdown-content">
                     <li><Link id="nav-text" to="/directors">BOARD OF DIRECTORS</Link></li>
-                    <li><Link id="nav-text" to="/staff">STAFF</Link></li>
                 </ul>
                 <nav>
                     <div className="nav-wrapper">

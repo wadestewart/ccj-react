@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
 #staff {
-    margin: 5rem 0 0 0;
+    background-color: #f1f1f1;
+    margin: 0;
 }
 
 .staff-title {
     font-family: 'Raleway', sans-serif !important;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+.staff-grid-p {
+    font-family: 'Lato', sans-serif !important;
+    padding: 0 20rem;
 }
 
 #staff-card {
@@ -20,4 +28,16 @@
 
 .card-content.center {
     transition: color 0.25s ease;
+}
+
+.staff-card-name {
+    font-family: 'Raleway', sans-serif !important;
+    margin: 0;
+}
+
+.staff-card-title {
+    color: #C0C0C0;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 0.9em;
+    margin: 0.1em 0 0 0;
 }
