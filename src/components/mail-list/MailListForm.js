@@ -47,7 +47,7 @@ class MailListForm extends Component {
                                         </h5>
                                     </div>
                                     <div className="row" data-editfield="newsletter_description">
-                                    <p className="col s12 m8">
+                                    <p id="mail-form-p" className="col s12 m8">
                                         Subscribe below to receive updates from the Council on Criminal Justice.
                                         </p>
                                     </div>

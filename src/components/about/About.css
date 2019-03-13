@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
-#about {
-    margin: 5rem 0 0 0;
+.about {
+    margin: 0 17.5rem;
 }
 
 .about-title {
@@ -10,12 +10,7 @@
     margin: 2rem 0;
 }
 
-.about-subtitle {
-    font-family: 'Raleway', sans-serif;
-    margin: 1rem 0;
-}
-
-p {
-    font-family: 'Lato', sans-serif;
-    margin: 1rem 0 2rem 0;
+.about-p {
+    font-family: 'Lato', sans-serif !important;
+    margin: 1rem 0 2rem 0 !important;
 }

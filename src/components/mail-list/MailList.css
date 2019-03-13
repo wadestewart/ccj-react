@@ -37,11 +37,12 @@
     font-family: 'Lato', sans-serif;
 }
 
-h5, p {
+.title {
     font-family: 'Raleway', sans-serif;
 }
 
-p {
+#mail-form-p {
+    font-family: 'Lato', sans-serif !important;
     font-size: 1.1rem;
     margin: 0;
 }

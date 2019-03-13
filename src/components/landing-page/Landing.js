@@ -5,8 +5,11 @@ import pillarImage from './lady_justice.jpg'
 
 import About from '../about/About'
 import MailListForm from '../mail-list/MailListForm'
+import StaffContainer from '../staff/staff-grid/StaffContainer'
 
-function Landing() {
+function Landing(props) {
+    // console.log(props)
+
     return(
         <div className="landing">
             <div id="first-lander" className="row">
@@ -15,7 +18,10 @@ function Landing() {
                 </figure>
                 <MailListForm />
             </div>
-            <About/>
+            <div className="about">
+                <About/>
+            </div>
+            <StaffContainer staffMembers={props.staffMembers} />
         </div>
     )
 }
