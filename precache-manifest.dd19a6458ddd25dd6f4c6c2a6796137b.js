@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "94d9f9a728b459a8bf61",
+    "revision": "f370a4a75785b686b1a3",
     "url": "/ccj-react/static/css/main.1697262c.chunk.css"
   },
   {
-    "revision": "94d9f9a728b459a8bf61",
-    "url": "/ccj-react/static/js/main.94d9f9a7.chunk.js"
+    "revision": "f370a4a75785b686b1a3",
+    "url": "/ccj-react/static/js/main.f370a4a7.chunk.js"
   },
   {
     "revision": "4a497e47ef51a9d12dd1",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ccj-react/static/media/lady_justice.da403325.jpg"
   },
   {
-    "revision": "f7694093a2a6c1fe1e4461386d99bd3f",
+    "revision": "e7a064395db602492a87215fbc1d8d69",
     "url": "/ccj-react/index.html"
   }
 ];
