@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 import './StaffGrid.css'
 import StaffGrid from './StaffGrid'
-// import Modal from '../Modal'
 
 class StaffContainer extends Component {
     render() {
@@ -14,15 +13,9 @@ class StaffContainer extends Component {
                     imageUrl={member.imageUrl}
                     name={member.name}
                     title={member.title}
-                    // bio={member.bio}
+                    bio={member.bio}
+                    // staffMembers={this.props.staffMembers}
                 />
-                // <Modal
-                //     key={member.id}
-                //     image={member.imageUrl}
-                //     name={member.name}
-                //     title={member.title}
-                //     bio={member.bio}
-                // />
         )
     })
 

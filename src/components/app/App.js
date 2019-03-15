@@ -10,12 +10,10 @@ import './App.css'
 
 import Header from '../header/Header'
 import Landing from '../landing-page/Landing'
-// import About from '../about/About'
 import DirectorsContainer from '../board/directors-grid/DirectorsContainer'
 import Director from '../board/director/Director'
 // import StaffContainer from '../staff/staff-grid/StaffContainer'
 import Staff from '../staff/staff-member/Staff'
-// import Contact from '../contact/Contact'
 
 class App extends Component {
   constructor() {

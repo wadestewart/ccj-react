@@ -13,19 +13,15 @@ class Modal extends Component {
       const options = {
         onOpenStart: () => {
           console.log("Open Start")
-          console.log(this.props)
-        //   instance.open()
         },
         onOpenEnd: () => {
           console.log("Open End")
         },
         onCloseStart: () => {
           console.log("Close Start")
-        //   instance.close()
         },
         onCloseEnd: () => {
           console.log("Close End")
-        //   instance.destroy()
         },
         inDuration: 250,
         outDuration: 250,
@@ -33,18 +29,15 @@ class Modal extends Component {
         dismissible: true,
         startingTop: "4%",
         endingTop: "10%"
-      };
+      }
+
       M.Modal.init(this.Modal, options)
-  
-    //   let instance = M.Modal.getInstance(this.Modal)
-    //   instance.open()
-    //   instance.close()
-    //   instance.destroy()
     }
   
     render() {
       return (
         <div>
+            
           <a
             className="waves-effect waves-light btn modal-trigger"
             data-target="modal1"
@@ -60,12 +53,12 @@ class Modal extends Component {
             id="modal1"
             className="modal"
           >
-            {/* If you want Bottom Sheet Modal then add 
-          bottom-sheet class */}
+
             <div className="modal-content">
               <h4>{this.props.name}</h4>
               <p>{this.props.title}</p>
             </div>
+
           </div>
         </div>
       )
