@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
-#leadership {
+/* #leadership {
     margin: 5rem 0 0 0;
+} */
+
+.board-info {
+    background-color: #f1f1f1;
+    padding: 2rem 0 0 0;
+}
+
+#board-row {
+    margin: 0;
 }
 
 .board-title {
     font-family: 'Raleway', sans-serif;
     margin: 0 0 2rem 0;
+    padding: 2rem 0 0 4rem;
+}
+
+#board-grid-p {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0 0 4rem 4rem;
 }
 
 #board-card {

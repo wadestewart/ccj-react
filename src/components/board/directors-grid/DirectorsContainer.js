@@ -22,7 +22,15 @@ class DirectorsContainer extends Component {
 
     return (
         <div id="leadership" className="row">
-            <h5 className="board-title">Board of Directors</h5>
+            <div className="board-info">
+                <h5 className="board-title">Board of Directors</h5>
+                <div id="board-row" className="row">
+                    <p id="board-grid-p" className="col s12 m5">
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+            </div>
+
             {directorsGrid}
         </div>
     )
