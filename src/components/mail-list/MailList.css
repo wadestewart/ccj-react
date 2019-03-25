@@ -2,8 +2,12 @@
 
 #mail-list-form {
     background-color: #f1f1f1;
-    height: 48.76rem;
-    padding: 6rem 0 0 0;
+    height: 30.8rem;
+    padding: 0;
+}
+
+#mail-row {
+    margin: 0 !important;
 }
 
 .title {

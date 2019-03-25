@@ -31,7 +31,7 @@ class MailListForm extends Component {
             <div id="mail-list-form" className="col s12 m6">
                 <div id="sib_embed_signup">
                     <div className="forms-builder-wrapper">
-                        <div className="row">
+                        <div id="mail-row" className="row">
                             <form className="description col s12 m8 push-m2" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/3s8w2/id/2" method="POST">
                                 <input type="hidden" name="js_id" id="js_id" value="3s8w2" />
                                 <input type="hidden" name="listid" id="listid" value="2" />

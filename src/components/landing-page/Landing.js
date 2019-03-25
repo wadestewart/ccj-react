@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Landing.css'
-import pillarImage from './lady_justice.jpg'
+import landingImage from './lander.jpg'
 
 import About from '../about/About'
 import MailListForm from '../mail-list/MailListForm'
@@ -15,7 +15,7 @@ function Landing(props) {
         <div className="landing">
             <div id="first-lander" className="row">
                 <figure className="col s12 m6">
-                    <img src={pillarImage} alt="" />
+                    <img src={landingImage} alt="" />
                 </figure>
                 <MailListForm />
             </div>
