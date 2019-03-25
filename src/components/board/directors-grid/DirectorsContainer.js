@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import './Directors.css'
 import DirectorsGrid from './DirectorsGrid'
+import Footer from '../../footer/Footer'
 
 class DirectorsContainer extends Component {
     render() {
@@ -32,6 +33,10 @@ class DirectorsContainer extends Component {
             </div>
 
             {directorsGrid}
+            
+            <div className="twitter">
+                <Footer/>
+            </div>
         </div>
     )
     }
