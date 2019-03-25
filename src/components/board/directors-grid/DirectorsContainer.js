@@ -33,10 +33,8 @@ class DirectorsContainer extends Component {
             </div>
 
             {directorsGrid}
-            
-            <div className="twitter">
-                <Footer/>
-            </div>
+
+            {/* <Footer/> */}
         </div>
     )
     }
