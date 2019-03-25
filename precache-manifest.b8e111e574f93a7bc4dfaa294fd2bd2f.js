@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "55d4c8b9f16c918ef397",
+    "revision": "c8576ef6e4bfe490e629",
     "url": "/ccj-react/static/css/main.17f46325.chunk.css"
   },
   {
-    "revision": "55d4c8b9f16c918ef397",
-    "url": "/ccj-react/static/js/main.55d4c8b9.chunk.js"
+    "revision": "c8576ef6e4bfe490e629",
+    "url": "/ccj-react/static/js/main.c8576ef6.chunk.js"
   },
   {
     "revision": "b1dffe3bc64467debcdb",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/ccj-react/static/media/lander.5fd22ad2.jpg"
   },
   {
-    "revision": "349abd6629e1fc7c739eb939ec2ee1f6",
+    "revision": "69459fe8057bb54287536f3990c010d2",
     "url": "/ccj-react/index.html"
   }
 ];
